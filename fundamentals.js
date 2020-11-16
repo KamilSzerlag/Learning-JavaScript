@@ -22,7 +22,7 @@ console.log(hola.name);
 const helloList = ['Hello1', 'Hello2', 'Hello3', 'Hello4', 'Hello5'];
 
 helloList.forEach(function (value, index, array) {
-  value += 'Dupa';
+  value += 'lorem ipsum';
   console.log(`indeks ${index} ` + value + ` Cuda na kiju:` + array[3]);
 });
 
